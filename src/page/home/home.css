@@ -1,0 +1,361 @@
+.animate {
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Container{
+  font-family: 'Lora', serif;
+}
+
+.firstRow{
+    display: flex;
+    padding: 90px 10%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 2px;
+
+}
+.firstRow img{
+    width: 35%;
+    margin-right: 5%;
+    border-radius: 20px;
+    margin-top: -30px;
+}
+
+.des{
+    width: 60%;
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+.des >p{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.title{
+    font-weight: bold;
+    
+    text-align: center;
+}
+.smalTitle{
+    font-size: 40px;
+}
+.bigTitle{
+    font-size: 50px;
+}
+.advert table {
+    margin: 0 auto; /* Căn giữa bảng */
+    border-collapse: separate; /* Phân tách viền của các ô */
+    border-spacing: 20px; /* Khoảng cách giữa các ô */
+}
+  
+.advert .cell {
+    padding: 20px; /* Khoảng cách bên trong của mỗi ô */
+    text-align: center; /* Căn giữa nội dung của mỗi ô */
+    background-color: #fff; /* Màu nền của mỗi ô */
+    border-radius: 10px; /* Bo tròn viền của mỗi ô */
+}
+  
+  .advert .btn {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #0b1f3a;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+ 
+.advert .btn:hover {
+    transform: scale(1.2);
+    color: #fff;
+}
+  /* =================second================== */
+.secondRow{
+    margin: 0 5%;
+    font-family: 'Lora', serif;
+}
+
+.popular {
+    padding: 65px;
+    background-color: #ffffff;
+    
+  }
+  
+  .popular-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .popular-top .desc {
+    margin-top: 16px;
+    width: 458px;
+    color: #04041d;
+    font-size: 1.8rem;
+    line-height: 1.67;
+  }
+  
+  .popular .controls {
+    display: flex;
+    gap: 18px;
+  }
+  
+  .popular-top .control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .popular-top .control-btn:hover {
+    background: var(--primary-color);
+    color: #e0cfcf;
+  }
+  
+  .popular .course-list {
+    gap: 30px;
+    display: flex;
+    margin-top: 55px;
+  }
+  
+  .popular.course-item {
+    flex: 1;
+    border-radius: 12px;
+    border: 1px solid #babec0;
+    background: #0e0d0d;
+  }
+  
+  .popular.course-item:hover {
+    border: 12px;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  .popular .course-item .thumb {
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+    object-fit: cover;
+    height: 278px;
+  }
+  
+  .popular .course-item .info {
+    padding: 16px 22px 22px;
+  }
+  
+  .popular .course-item .foot,
+  .popular .course-item .rating,
+  .popular .course-item .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .popular .course-item .title a {
+    color: #023654;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+  }
+  
+  .popular .rating .value {
+    margin-left: 6px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+  }
+  
+  .popular .course-item .desc {
+    margin-top: 6px;
+    font-size: 22px;
+    line-height: 1.68;
+    text-align: justify;
+  }
+  
+  .popular .course-item .foot {
+    margin-top: 12px;
+  }
+  
+  .popular .course-item .btn-book {
+    border: 1px solid #01877E;
+  }
+  
+  .popular .course-item .btn-book:hover {
+    background: var(--primary-color);
+  }
+  /* ==================fourthRow================ */
+  .fourthRow{
+    margin-top: 0px;
+    padding: 40px 0;
+    background-color: #fff;
+    font-family: 'Lora', serif;
+}
+  .feedback {
+    margin: 0 8%;
+    color: black;
+  }
+  
+  .feedback-list {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .feedback-item {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+  }
+  
+  .feedback-item .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .feedback-item .info .advert-name {
+    margin-top: 18px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42;
+    font-family: var(--font-heading);
+  }
+  
+  .feedback-item .info .desc {
+    margin-top: 4px;
+    color: black;
+    font-size: 1.4rem;
+    line-height: 1.86;
+  }
+  
+  .feedback-item .dots {
+    gap: 6px;
+    display: flex;
+    margin-top: 28px;
+  }
+  
+  .feedback-item .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #0c0c0d;
+    cursor: pointer;
+  }
+  
+  .feedback-item .dot.active {
+    background-color: #ffb0a9;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .feedback-item .content {
+    width: 80%;
+    margin-left: auto;
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+  .feedback-item .content >img {
+    width: 5%;
+    margin-bottom: 40px;
+  }
+  
+  .feedback-item blockquote {
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    line-height: 1.54;
+    
+    
+  }
+/* ====================thirdRow================== */
+.thirdRow{
+    padding: 0 8%;
+    font-family: 'Lora', serif;
+    background-color: rgb(243, 243, 243);
+}
+  .features {
+    margin-top: 50px;
+    padding: 60px 0;
+  }
+  
+  .features .bod {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .features .images {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .features .images img {
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  .features .lower {
+    margin-top: 34px;
+  }
+  
+  .features .content {
+    width: 41%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .features .desc {
+    margin-top: 16px;
+    font-size: 22px;
+    line-height: 1.75;
+    text-align: justify;
+  }
+  
+  .features .cta-btn {
+    margin-top: 32px;
+    width: 137px;
+    height: 65px;
+    align-items: center;
+    border: 1px solid #01877E;
+    border-radius: 10px;
+  }
+  
+  /* ===========================features 2========================== */
+  .features-2nd {
+    margin-top: 70px;
+  }
+  
+  .features-2nd .bod {
+    flex-direction: row-reverse;
+  }
+  
+  .features-2nd .content {
+    width: 49%;
+  }
+  
+  .features-2nd .images img {
+    width: 470px;
+    height: 440px;
+  }

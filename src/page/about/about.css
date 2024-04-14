@@ -1,0 +1,75 @@
+
+.Container{
+    font-family: 'Lora', serif;
+    width: 100%;
+}
+.smalTitle{
+    font-size: 40px;
+}
+.bigTitle{
+    font-size: 50px;
+}
+
+.introduct{
+    display: flex;
+    padding: 90px 10%;
+    background-color: #fff;
+}
+.intro-text{
+    width: 60%;
+}
+.intro-text p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.introduct img{
+    max-width: 50%;
+    height: auto; 
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.members {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .member-photo {
+    width: 80%;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .member-info {
+    text-align: left;
+    word-wrap: break-word;
+    width: 90%;
+  }
+  
+  .member h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .member p {
+    margin: 5px 0;
+  }
+  
+  

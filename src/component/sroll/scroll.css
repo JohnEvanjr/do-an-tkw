@@ -1,0 +1,31 @@
+.button-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .button-to-top button {
+    width: 50px;
+    height: 50px;
+    background-color: #0b1f3a;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-to-top button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-to-top .hide {
+    display: none;
+  }
+  
+  .button-to-top .show {
+    display: block;
+  }
+  
