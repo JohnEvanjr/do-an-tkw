@@ -87,7 +87,7 @@ export default function About() {
             />
 
             <div className="member-info">
-              <h2>Từ Anh Văn</h2>
+              <h2>Đỗ Hữu Phúc</h2>
               <p>MSSV: 2033223754</p>
               <p>Email: phuchuudo2468@gmail.com</p>
               <p>Sở thích: Technology and Rubik's Cube</p>
