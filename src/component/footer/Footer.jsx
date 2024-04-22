@@ -7,25 +7,7 @@ export default function Footer() {
       <div className="main-content">
         <div className="row">
 
-          <div className="column">
-            <img src="" alt="" className="logo" />
-            <h3 className="title">Follow us</h3>
-
-            <div className="socials">
-              <a href="">
-                <img src="./img/twitter.svg" alt="twitter" className="icon" />
-              </a>
-              <a href="">
-                <img src="./img/fb.svg" alt="facebook" className="icon" />
-              </a>
-              <a href="">
-                <img src="./img/linked.svg" alt="linked" className="icon" />
-              </a>
-              <a href="">
-                <img src="./img/instagram.svg" alt="instagram" className="icon" />
-              </a>
-            </div>
-          </div>
+          
 
           <div className="column">
             <h3 className="title">Company</h3>

@@ -21,7 +21,7 @@
     display: flex;
     padding: 90px 10%;
     background-color: rgb(243, 243, 243);
-    margin-top: 2px;
+    margin-top: 0px;
 
 }
 .firstRow img{
@@ -88,20 +88,20 @@
 }
   /* =================second================== */
 .secondRow{
-    margin: 0 5%;
+    padding: 0;
     font-family: 'Lora', serif;
 }
 
 .popular {
     padding: 65px;
     background-color: #ffffff;
-    
   }
   
   .popular-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 7%;
   }
   
   .popular-top .desc {
@@ -138,6 +138,7 @@
     gap: 30px;
     display: flex;
     margin-top: 55px;
+    margin: 0 7%;
   }
   
   .popular.course-item {
@@ -295,7 +296,7 @@
     background-color: rgb(243, 243, 243);
 }
   .features {
-    margin-top: 50px;
+    margin-top: 0px;
     padding: 60px 0;
   }
   
@@ -336,7 +337,7 @@
   .features .cta-btn {
     margin-top: 32px;
     width: 137px;
-    height: 65px;
+    height: 40px;
     align-items: center;
     border: 1px solid #01877E;
     border-radius: 10px;

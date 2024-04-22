@@ -1,0 +1,218 @@
+.Container{
+    font-family: 'Lora', serif;
+  }
+#main-header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-gray-200);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  #frame-header_left{
+    display: flex;
+    height: 25px;
+    margin-left: 50px;
+    gap: 50px;
+    box-sizing: border-box;
+  }
+  
+  #main-header a:hover{
+    transform: scale(1.2);
+  }
+  
+  #main-header a:active{
+    opacity: 50%;
+  }
+  
+  #coupon-header {
+    color: var(--color-white);
+    font-size: 25px;
+    line-height: 40px;
+    white-space: nowrap;
+    font-weight: 400;
+  }
+  
+  #frame-header_right{
+    display: flex;
+    height: 25px;
+    margin-right: 50px;
+    gap: 50px;
+    box-sizing: border-box;
+    color: var(--color-white);
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  #introduction{
+    background-image: url(../../../public/img/intro.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  #navigator{
+    height: 80px;   
+    background: rgba(118, 108, 107, 0.36);
+    mix-blend-mode:darken;
+    width: 100%;
+    color: var(--color-white);
+    filter: brightness(0.8);
+    display: flex;
+    align-items: center;
+  }
+  
+  #frame-navigator_left{
+    margin-left: 50px;
+    mix-blend-mode:lighten;
+  }
+  
+  #navigator-search{
+    display: flex;
+    gap: 25px;
+  }
+  
+  #navigator-search>input{
+  
+    width: 320px;
+    height: 50px;
+    background: rgba(217, 217, 217, 0.11);
+    border: 1px solid var(--color-khaki);
+    border-radius: 15px;
+    outline:none; 
+  }
+  
+  .intro-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+  
+  .intro-content>a{
+  
+    border: var(--color-white) 1px solid;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  #introduction a:hover{
+  
+    transform: scale(1.2);
+  }
+  
+  #introduction a:active{
+  
+    transition: color 1ms ease;
+    color: var(--color-khaki);
+  }
+  
+  #food-shop, #workout-shop{
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #food-info, #workout-info{
+  
+    display: flex;
+    height: 650px;
+    width: auto;
+    background-color: var(--color-khaki);
+    justify-content:center;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 50px;
+  
+  }
+  
+  .fooditem, .workoutitem{
+    position: relative;
+    display: flex;
+    width: 370px;
+    height: 500px;
+    border: var(--color-gray-200) solid 5px;
+    border-radius: 15%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3);
+    background-color: beige;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .fooditem>h1{
+    color: var(--color-dimgray-200);
+    position: absolute;
+    top: 300px;
+  }
+  
+  .fooditem>div{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    top: 400px;
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--color-white);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+    background-color: var(--color-gray-200);
+    border: beige solid 3px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .workoutitem>h1{
+    color: var(--color-dimgray-200);
+    position: absolute;
+    top: 300px;
+  }
+  
+  .workoutitem>div{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    top: 400px;
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--color-white);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+    background-color: var(--color-gray-200);
+    border: beige solid 3px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #main-footer{
+  
+    height: 400px;
+    width: 100%;
+    background-color: var(--color-gray-200);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #main-footer>h1{
+  
+    color: var(--color-khaki);
+  }
+  
+  #main-footer>h3{
+    margin-top: -10px;
+    color: var(--color-white);
+  }

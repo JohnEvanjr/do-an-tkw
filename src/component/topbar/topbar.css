@@ -1,108 +1,128 @@
 .top {
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    /* font-family: "Josefin Sans", sans-serif; */
-    z-index: 999;
-  }
-  .topLeft,
-  .topRight {
-    flex: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .topIcon {
-    font-size: 25px;
-    margin: 0 12px;
-    color: #444;
-    cursor: pointer;
-  }
-  .topCenter {
-    flex: 6;
-  }
-  .topList {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .topListItem {
-    margin-right: 20px;
-    font-size: 25px;
-    font-weight: 300;
-    cursor: pointer;
-  }
-  .topIcon:hover{
-    transform: scale(1.6);
-    text-decoration: none;
-    color: skyblue;
-  }
-  .topListItem:hover{
-    transform: scale(1.2);
-  }
-  .topListItem a.active {
-    font-weight: bold;
-    border-bottom: 3px solid #01877E;
-    border-radius: 5px;
-
-  }
-  .topSearchIcon {
-    font-size: 18px;
-    color: #666;
-    cursor: pointer;
-    margin-left: 15px;
-  }
-  .topRight {
-    position: relative;
-    display: inline-block;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  /* font-family: "Josefin Sans", sans-serif; */
+  z-index: 999;
+}
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topIcon {
+  font-size: 25px;
+  margin: 0 12px;
+  color: #444;
+  cursor: pointer;
+}
+.topCenter {
+  flex: 6;
+}
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topListItem {
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.topIcon:hover {
+  transform: scale(1.6);
+  text-decoration: none;
+  color: skyblue;
+}
+.topListItem:hover {
+  transform: scale(1.2);
+}
+.topListItem a.active {
+  font-weight: bold;
+  border-bottom: 3px solid #01877e;
+  border-radius: 5px;
+}
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.topRight {
+  position: relative;
+  display: inline-block;
+  list-style: none !important;
+  text-align: center;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none !important;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none !important;
+  list-style: none !important;
+  display: block;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
+.dropdown-content a:navitem {
+  background-color: #f1f1f1;
 }
 
 .show {
-    display: block;
+  display: block;
 }
-.more{
-    margin-right: 20px;
-    font-size: 15px;
-    font-weight: 400;
-    cursor: pointer;
-    background-color: #01877E;
-    border-radius: 20px;
-    padding: 10px;
-    width: 80px;
-    text-align: center;
-    color: #f1f1f1;
+.more {
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #01877e;
+  border-radius: 20px;
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  color: #f1f1f1;
 }
-.more:hover{
-    transform: scale(1.2);
+.more:hover {
+  transform: scale(1.2);
+}
+.topRight .more,
+.topRight .dropdown-content .log,
+.topRight .dropdown-content .sgn {
+  list-style: none;
+}
+.mylogout {
+  padding: 15px;
+  border-radius: 25px;
+  margin: 20px 20px;
+  box-shadow: 0;
+  border: none;
+  background-color: #01877e;
+}
+
+.mylogout:hover {
+  transform: scale(1.2);
+  background-color:rgb(80, 150, 190);
 }

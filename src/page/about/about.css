@@ -36,6 +36,8 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    background-color: #fff;
+    padding: 20px 10px;
   }
   
   .member {
@@ -50,11 +52,10 @@
   }
   
   .member-photo {
-    width: 80%;
+    width: 90%;
     height: auto;
-    margin-bottom: 50px;
-    border-radius: 50%;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
   }
   
   .member-info {

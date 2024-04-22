@@ -1,18 +1,20 @@
 
 .footer {
-    background-color: rgb(243, 243, 243);
-    padding: 40px 135px 0;
+    background-color: rgb(233, 230, 230);
+    padding: 20px 135px 0;
+    margin-top: 0;
   }
   
   .footer .row {
-    padding-bottom: 20px;
+    padding-bottom:5px;
     border-bottom: 1px solid #59554b;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    
   }
   
   .footer .row .column {
-    width: 22%;
+    width: 25%;
   }
   
   /* .footer .row .column:first-child {
@@ -20,17 +22,17 @@
   } */
   
   .footer .desc {
-    margin-top: 18px;
+    margin-top: 10px;
     max-width: 267px;
     color: #000;
-    font-size: 1.4rem;
+    font-size: 15px;
     line-height: 1.86;
   }
   
   .footer .socials {
     display: flex;
     gap: 18px;
-    margin-top: 18px;
+    margin-top: 10px;
   }
   
   .footer .title {
@@ -39,20 +41,20 @@
     padding-right: 48px;
     border-bottom: 1px solid #59554b;
     color: #000;
-    font-size: 1.8rem;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.75;
   }
   
   .footer .list {
-    margin-top: 15px;
+    margin-top: 10px;
   }
   
   .footer .list a {
     display: inline-block;
     margin-bottom: 10px;
     color: #544040;
-    font-size: 1.4rem;
+    font-size: 15px;
     line-height: 1.86;
   }
   
@@ -62,7 +64,7 @@
   
   .footer .list strong {
     color: #000;
-    font-size: 1.4rem;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1.86;
   }
@@ -71,9 +73,9 @@
     padding: 15px 0;
     color: #807d74;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 1.86;
+    line-height: 1;
   }
   
   .footer .socials .icon {

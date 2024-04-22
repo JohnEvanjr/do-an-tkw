@@ -212,18 +212,18 @@ export default function Home() {
                 <img src={process.env.PUBLIC_URL + "/img/health2.jpg"} alt="" />
               </div>
               <div className="content">
-                <h2 className="heading-lv2">THE CLASSNAME YOU WILL GET HERE</h2>
+                <h2 className="heading-lv2">THE CLASS YOU WILL GET HERE</h2>
                 <p className="desc">
                   Led by our team of expert and motivational instructors, "The
-                  ClassName You Will Get Here" is a high-energy, results-driven
+                  Class You Will Get Here" is a high-energy, results-driven
                   session that combines a perfect blend of cardio, strength
-                  training, and functional exercises. Each className is
+                  training, and functional exercises. Each class is
                   carefully curated to keep you engaged and challenged, ensuring
                   you never hit a plateau in your fitness endeavors.
                 </p>
 
                 <a href="#!" className="btn cta-btn">
-                  Book A ClassName
+                  Book A Class
                 </a>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function Home() {
                   and more recommendations from the full Programe catalog.
                 </p>
                 <a href="#!" className="btn cta-btn">
-                  Book A ClassName
+                  Book A Class
                 </a>
               </div>
             </div>

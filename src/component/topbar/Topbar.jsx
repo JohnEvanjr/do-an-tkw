@@ -2,7 +2,7 @@ import "../topbar/topbar.css";
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-export default function TopBar() {
+export default function TopBar({ isLoggedIn, onLogout }) {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
@@ -49,8 +49,20 @@ export default function TopBar() {
             className={`dropdown-content ${isOpen ? "show" : ""}`}
             id="myDropdown"
           >
-            <a href="#">Login</a>
-            <a href="#">Register</a>
+            {isLoggedIn ? (
+              <>
+                <NavItem path="/user" label="User" className="user"/>
+                <button onClick={onLogout} className="mylogout" path="/login">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                 Logout
+                </button>
+              </>
+            ) : (
+              <>
+                <NavItem path="/login" label="Login" className="log"/>
+                <NavItem path="/signup" label="Sign up" className="sgn"/>
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -58,18 +70,22 @@ export default function TopBar() {
   );
 }
 
-function NavItem({ path, label }) {
+function NavItem({ path, label, onClick }) {
   const location = useLocation();
   const isActive = location.pathname === path;
 
   return (
     <li className="topListItem">
-      <Link
-        className={`link ${isActive ? "active" : ""}`}
-        to={path}
-      >
-        {label}
-      </Link>
+      {path ? (
+        <Link
+          className={`link ${isActive ? "active" : ""}`}
+          to={path}
+        >
+          {label}
+        </Link>
+      ) : (
+        <span className="link" onClick={onClick}>{label}</span>
+      )}
     </li>
   );
 }

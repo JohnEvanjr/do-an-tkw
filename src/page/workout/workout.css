@@ -1,0 +1,37 @@
+.Container {
+  font-family: "Lora", serif;
+}
+.body-top {
+  background-color: rgb(243, 243, 243);
+  padding: 50px 8%;
+  text-align: center;
+}
+.desc{
+    font-size: 20px;
+}
+.action-list {
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  padding: 40px 7%;
+}
+.action-list a {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.action-list .thumb {
+  padding: 5px;
+  width: 100%;
+  border-radius: 12px 12px 12px 12px;
+  object-fit: cover;
+}
+
+.action-list .thumb:hover {
+  color: rgb(15, 136, 124);
+}
+
+.hero .info .title {
+  text-align: center;
+}

@@ -1,0 +1,130 @@
+.Container{
+    font-family: 'Lora', serif;
+  }
+
+.healthIntro{
+    text-align: center;
+    padding: 20px 8%;
+    font-size: 40px;
+    background-color: rgb(243, 243, 243);
+}
+.element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    position: sticky;
+    z-index: 999;
+    top: 50px;
+}
+.element .listElement{
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.food,.life,.workout{
+    padding: 30px 7%;
+}
+.food,.workout{
+    background-color: #fff;
+}
+.life{
+    background-color: rgb(243, 243, 243);
+}
+
+.food h1, .life h1, .workout h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.food h2, .life h2, .workout h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.food h3, .life h3, .workout h3 {
+    font-size: 22px;
+    text-align: center;
+}
+.food >table >th,td, 
+.life >table >th,td, 
+.workout >table >th,td {
+    font-size: 20px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+
+.life >p{
+    font-size: 20px;
+    margin: 10px 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.source{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.source img{
+    width: 21%;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.dietMeal {
+    display: flex;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+.dietMeal > img {
+    width: 35%;
+    height: auto;
+    object-fit: cover; /* Chỉnh sửa */
+    border-radius: 20px;
+}
+.dietMeal > p {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 15%;
+    font-size: 18px;
+}
+
+.living {
+    display: flex;
+    background-color: #fff;
+}
+
+.living > img {
+    width: 25%;
+    height: auto;
+}
+
+.living > p {
+    padding: 20px;
+    width: 15%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.workout{
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 300%;
+    padding: 90px;
+}
+
+.workout img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+.exer{
+    display: flex;
+}
+.detail{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}

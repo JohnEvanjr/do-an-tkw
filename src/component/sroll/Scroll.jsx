@@ -30,7 +30,7 @@ export default function Scroll() {
   return (
     <div className={`button-to-top ${isVisible ? 'show' : 'hide'}`}>
       <button onClick={scrollToTop}>
-        <span className="scroll-text">↑ Scroll to Top</span>
+        <span className="scroll-text"><strong><i class="fa-solid fa-arrow-up-long"></i></strong></span>
       </button>
     </div>
   );

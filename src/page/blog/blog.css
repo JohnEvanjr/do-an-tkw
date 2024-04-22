@@ -1,0 +1,166 @@
+.Container {
+  font-family: "Lora", serif;
+}
+.first-blog,.second-blog,.third-blog{
+    padding: 50px 8%;
+}
+.first-blog,.third-blog{
+    background-color: rgb(243,243,243);
+}
+.second-blog{
+    background-color: #fff;
+}
+header {
+  background-color: #13313d;
+  color: #fff;
+  padding: 10px 5%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  box-sizing: border-box;
+}
+header h1 {
+  float: left;
+  font-size: 28px;
+}
+
+header nav {
+  float: right;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+body h3 {
+  color: black;
+  margin-left: 5%;
+}
+
+.latest-posts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-posts .post {
+  flex-basis: calc(25% - 10px);
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.latest-posts .post img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.post-info a {
+  color: black;
+  text-decoration: none;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.posts{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 20px;
+}
+.blog-post {
+  width: 100%;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+.blog-post .content {
+  flex-grow: 1;
+  box-sizing: border-box;
+  text-align: justify;
+  padding: 20px 25px;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.blog-post h2 {
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.post-meta {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #666;
+}
+.content p{
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+.third-blog {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.third-blog figure {
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .third-blog figure {
+    width: 100%;
+    padding: 10px 10px 0 10px;
+  }
+}
+
+.third-blog figure img {
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+}
+.third-blog figcaption {
+  font-size: 18px;
+  color: #13313d;
+}
+
+.related {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.related img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
